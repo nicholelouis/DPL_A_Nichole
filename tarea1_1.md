@@ -29,7 +29,7 @@ git push
 - Crear en el repositorio local un fichero llamado privado.txt. Crear en el repositorio local una carpeta llamada privada.
 ```bash
 touch privado.txt
-mkadir privado
+mkdir privado
 ```
 
 - Realizar los cambios oportunos para que tanto el archivo como la carpeta sean ignorados por git. ( Incluir capturas de pantalla )
