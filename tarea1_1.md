@@ -68,7 +68,6 @@ git push origin v0.1
 - Crear una tabla de este estilo en el fichero tarea1_1.md con la información de varios de tus compañeros de clase:
 
 ## Compañeros
-## Compañeros
 
 | Nombre       | Email                | Clase               |
 |--------------|----------------------|---------------------|
