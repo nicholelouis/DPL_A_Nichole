@@ -37,6 +37,8 @@ mkdir privado
 echo "privado" >> .gitignore
 echo "privado.txt" >> .gitignore
 ```
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2022.34.11.png?raw=true)
+
 ### AÑADIR FICHERO 1.txt (1 PUNTO)
 - Añadir 1.txt al repositorio local.
 ```bash
@@ -61,8 +63,11 @@ git push origin v0.1
 ###  CONFIGURACIÓN Y USO SOCIAL DE  GITHUB (1 PUNTO)
 - Poner una foto en vuestro perfil de GitHub.
 - Poner el doble factor de autentificación en vuestra cuenta de GitHub.
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-13%20a%20la(s)%2015.25.27.png?raw=true)
 - Seguir los repositorios  de vuestros compañeros.
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2022.35.16.png?raw=true)
 - Añadir una estrella a los repositorios  del resto de tus compañeros.
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2022.31.37.png?raw=true)
 
 ### CREAR UNA TABLA (1 PUNTO)
 - Crear una tabla de este estilo en el fichero tarea1_1.md con la información de varios de tus compañeros de clase:
