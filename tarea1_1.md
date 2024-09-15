@@ -22,7 +22,7 @@ git commit -m "Tarea 1.1"
 ### PUSH INICIAL (1 PUNTO)
 - Subir los cambios al repositorio remoto
 ```bash
-git push
+git push origin
 ```
 
 ### IGNORAR ARCHIVOS (1 PUNTO)
@@ -62,6 +62,7 @@ git push origin v0.1
 
 ###  CONFIGURACIÓN Y USO SOCIAL DE  GITHUB (1 PUNTO)
 - Poner una foto en vuestro perfil de GitHub.
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2022.42.18.png?raw=true)
 - Poner el doble factor de autentificación en vuestra cuenta de GitHub.
 ![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-13%20a%20la(s)%2015.25.27.png?raw=true)
 - Seguir los repositorios  de vuestros compañeros.

@@ -89,9 +89,15 @@ git log --oneline --decorate --all --graph
 
 ### CREAR UNA ORGANIZACIÓN (1 PUNTO)
 Crea una organización llamada orgdpl-tunombredeusuariodegithub ( ejemplo orgdpl-amarzar )
-```bash
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-13%20a%20la(s)%2016.07.19.png?raw=true)
 
-```
+## CREAR EQUIPOS 
+- Crear dos equipos en la organización orgdpl-tunombredeusuariodegithub, uno llamado administradores con más permisos y otro colaboradores con menos permisos
+![img]()
+- Meter a github.com/radav453 y a 2 de vuestros compañeros de clase en el equipo de administradores.
+![img]()
+- Meter a github.com/radav453 y a 2 de vuestros compañeros de clase en el equipo de colaboradores.
+![img]()
 
 ### CREAR UN index.html
 Crear un index.html que se pueda ver como página web en la organización.
@@ -101,17 +107,25 @@ git add .
 git commit -m "Se sube index.html"
 git push
 ```
-```html
-
-```
+![img]()
+![img]()
+![img]()
+![img]()
+![img]()
 
 ### CREAR PULL REQUESTS
 Hacer 2 forks de 2 repositorios orgdpl-tunombredeusuariodegithub.github.io de 2 organizaciones de las que sean ni administradores ni colaboradores.
 Crear una rama en cada fork.
 En cada rama modificar el fichero index.html añadiendo vuestro nombre.
 Con cada rama hacer un pull request.
-```bash
 
+![img]()
+![img]()
+![img]()
+![img]()
+![img]()
+```bash
+git checkout -b modificacion-nichole
 ```
 
 ### GESTIONAR PULL REQUESTS
@@ -119,3 +133,7 @@ Aceptar los pull request que lleguen a los repositorios de tu organización.
 ```bash
 
 ```
+![img]()
+![img]()
+![img]()
+![img]()
