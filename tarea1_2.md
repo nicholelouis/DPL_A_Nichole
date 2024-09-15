@@ -65,7 +65,7 @@ git branch --no-merged
 ### ARREGLAR  CONFLICTO (1 PUNTO)
 Arreglar el conflicto anterior y hacer un commit. Explicar como lo has arreglado incluyendo capturas de pantalla.
 
-CAPTURE
+![img]()
 
 ```bash
 git add 1.txt
@@ -93,25 +93,26 @@ Crea una organización llamada orgdpl-tunombredeusuariodegithub ( ejemplo orgdpl
 
 ## CREAR EQUIPOS 
 - Crear dos equipos en la organización orgdpl-tunombredeusuariodegithub, uno llamado administradores con más permisos y otro colaboradores con menos permisos
-![img]()
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2023.01.21.png?raw=true)
 - Meter a github.com/radav453 y a 2 de vuestros compañeros de clase en el equipo de administradores.
-![img]()
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2022.57.34.png?raw=true)
+|[img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2022.57.56.png?raw=true)
 - Meter a github.com/radav453 y a 2 de vuestros compañeros de clase en el equipo de colaboradores.
-![img]()
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2023.00.08.png?raw=true)
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2023.02.20.png?raw=true)
 
 ### CREAR UN index.html
 Crear un index.html que se pueda ver como página web en la organización.
+
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2023.13.35.png?raw=true)
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2023.14.45.png?raw=true)
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2023.15.55.png?raw=true)
 ```bash
 touch index.html
 git add .
 git commit -m "Se sube index.html"
 git push
 ```
-![img]()
-![img]()
-![img]()
-![img]()
-![img]()
 
 ### CREAR PULL REQUESTS
 Hacer 2 forks de 2 repositorios orgdpl-tunombredeusuariodegithub.github.io de 2 organizaciones de las que sean ni administradores ni colaboradores.
@@ -119,21 +120,18 @@ Crear una rama en cada fork.
 En cada rama modificar el fichero index.html añadiendo vuestro nombre.
 Con cada rama hacer un pull request.
 
-![img]()
-![img]()
-![img]()
-![img]()
-![img]()
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2023.25.14.png?raw=true)
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2023.26.11.png?raw=true)
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2023.27.02.png?raw=true)
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2023.27.24.png?raw=true)
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2023.31.15.png?raw=true)
 ```bash
 git checkout -b modificacion-nichole
 ```
+|[img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2023.32.24.png?raw=true)
 
 ### GESTIONAR PULL REQUESTS
 Aceptar los pull request que lleguen a los repositorios de tu organización.
-```bash
 
-```
-![img]()
-![img]()
-![img]()
-![img]()
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2023.33.46.png?raw=true)
+
