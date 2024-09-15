@@ -65,7 +65,7 @@ git branch --no-merged
 ### ARREGLAR  CONFLICTO (1 PUNTO)
 Arreglar el conflicto anterior y hacer un commit. Explicar como lo has arreglado incluyendo capturas de pantalla.
 
-![img]()
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2023.47.31.png?raw=true)
 
 ```bash
 git add 1.txt
@@ -128,7 +128,7 @@ Con cada rama hacer un pull request.
 ```bash
 git checkout -b modificacion-nichole
 ```
-|[img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2023.32.24.png?raw=true)
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-09-15%20a%20la(s)%2023.32.24.png?raw=true)
 
 ### GESTIONAR PULL REQUESTS
 Aceptar los pull request que lleguen a los repositorios de tu organización.
