@@ -1,6 +1,6 @@
 # Securización de Xampp
 
-El presente informe tiene como objetivo proporcionar una serie de recomendaciones y buenas prácticas para securizar XAMPP, un paquete de software que facilita el desarrollo local. Aunque XAMPP es ampliamente utilizado por desarrolladores debido a su simplicidad, su configuración predeterminada no está optimizada lo que puede exponer el sistema a vulnerabilidades. Abordaremos las medidas necesarias para fortalecer la seguridad de XAMPP, minimizando riesgos y garantizando una infraestructura más protegida frente a posibles ataques.
+El presente informe tiene como objetivo proporcionar una serie de recomendaciones y buenas prácticas para securizar XAMPP, un paquete de software que facilita el desarrollo local. Aunque XAMPP es ampliamente utilizado por desarrolladores debido a su simplicidad, su configuración predeterminada no está optimizada lo que puede exponer el sistema a vulnerabilidades. Abordar las medidas necesarias para fortalecer la seguridad de XAMPP, minimizando riesgos y garantizando una infraestructura más protegida frente a posibles ataques.
 
 ### 1.- Inicializar XAMPP
 Para comenzar, debemos iniciar XAMPP mediante el siguiente comando:
