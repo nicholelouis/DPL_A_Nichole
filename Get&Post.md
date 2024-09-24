@@ -98,6 +98,9 @@ El método **post** envía los datos de forma oculta dentro del cuerpo de la sol
 2. En el navegador, accedemos a `http://localhost/nombre_carpeta/index.html` para ejecutar los formularios.
 3. Dependiendo del método elegido los datos serán procesados de manera diferente por los archivos PHP.
 
+![img]()
+![img]()
+
 ## Conclusiones
 - **GET** es adecuado para consultas donde la seguridad no es crítica y los datos pueden ser visibles.
 - **POST** es más seguro y útil para el envío de información sensible.
