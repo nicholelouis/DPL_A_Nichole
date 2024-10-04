@@ -1,7 +1,5 @@
 # Insertar, leer, modificar y borrar registros de la base de datos
 
-![img](https://banner2.cleanpng.com/20180904/xhu/kisspng-logo-image-computer-icons-php-portable-network-gra-william-davies-meng-mongodb-1713944344684.webp)
-
 Este informe describe los pasos necesarios para realizar las cuatro operaciones básicas en una base de datos: insertar, leer, modificar y borrar utilizando PHP para interactuar con la base de datos a través de phpMyAdmin. La base de datos de ejemplo se llamará prueba y la tabla sobre la que operaremos es users.
 
 ### 1. Insertar registros
