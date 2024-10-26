@@ -62,9 +62,11 @@ En este informe, detallaremos los pasos que seguimos para alojar nuestras págin
    - Regresamos al panel de control de Infinity Free y buscamos la sección "FTP Details".
    - Tomamos nota del **host FTP**, **nombre de usuario** y **contraseña**.
 
-![img](/Users/nikki/2DAW/DPL/DPLgit/DPL_A_Nichole/img/Captura de pantalla 2024-10-27 a la(s) 0.44.34.png)
-![img](/Users/nikki/2DAW/DPL/DPLgit/DPL_A_Nichole/img/Captura de pantalla 2024-10-27 a la(s) 0.43.59.png)
-![img](/Users/nikki/2DAW/DPL/DPLgit/DPL_A_Nichole/img/Captura de pantalla 2024-10-27 a la(s) 0.44.22.png)
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-10-27%20a%20la(s)%200.44.34.png?raw=true)
+
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-10-27%20a%20la(s)%200.43.59.png?raw=true)
+
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/main/img/Captura%20de%20pantalla%202024-10-27%20a%20la(s)%200.44.22.png?raw=true)
 
 2. **Configurar FileZilla**
    - Abrimos FileZilla y, en la parte superior, introdujimos los siguientes datos en los campos correspondientes:
