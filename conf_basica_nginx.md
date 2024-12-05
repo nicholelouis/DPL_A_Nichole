@@ -16,5 +16,5 @@ sudo systemctl status nginx
 - Tambien podemos verificar la sintaxis y configuración con el siguiente comando y nos deberia indicar que todo esta bien
 ```bash
 sudo nginx -t
-``
-- Dentro de /etc/nginx podemos encontrar todos los archivo y configuraciones del mismo
+```
+Dentro de /etc/nginx podemos encontrar todos los archivo y configuraciones del mismo
