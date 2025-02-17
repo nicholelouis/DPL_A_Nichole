@@ -8,7 +8,7 @@
 se aplica con `sudo netplan apply`
 
 ## Instalación LDAP en servidor
-- Cambiamos el hostname del servidor `sudo hostnamectl set-hostname ldapserver.isauwuntu.local`
+- Cambiamos el hostname del servidor `sudo hostnamectl set-hostname ldapserver.nikki.local`
 - Cambiamos el fichero `sudo nano /etc/hosts`:
 ```
 # Añadimos nuestra ip y direccion
@@ -38,32 +38,45 @@ se aplica con `sudo netplan apply`
 ## Unidad organizativa
 - Vamos a `sudo nano ou.ldif`:
 ```
-dn: ou=informatica,dc=isauwuntu,dc=local
+dn: ou=informatica,dc=nikki,dc=local
 objectClass: top
 objectClass: organizationalUnit
 ou: informatica
 ```
-- Hacemos `sudo ldapadd -x -D cn=admin,dc=isauwuntu,dc=local -W -f ou.ldif`
+
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/ece8abd4238cf97d2c9bc53c1a5e61bbdae4290b/LDAP/img/dpl5.png)
+
+- Hacemos `sudo ldapadd -x -D cn=admin,dc=nikki,dc=local -W -f ou.ldif`
+
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/ece8abd4238cf97d2c9bc53c1a5e61bbdae4290b/LDAP/img/dpl6.png)
+
 - Comprobamos con `sudo slapcat`
+
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/ece8abd4238cf97d2c9bc53c1a5e61bbdae4290b/LDAP/img/dpl7.png)
 
 ## Crear grupos
 - Copiamos el fichero `cp ou.ldif grp.ldif`
 - Modificamos `sudo nano grp.ldif`:
 ```
-dn: cn=informatica,ou=informatica,dc=isauwuntu,dc=local
+dn: cn=informatica,ou=informatica,dc=nikki,dc=local
 objectClass: top
 objectClass: posixGroup
 gidNumber: 10000
 cn: informatica
 ```
-- Creamos grupos con `sudo ldapadd -x -D cn=admin,dc=isauwuntu,dc=local -W -f grp.ldif`
+
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/ece8abd4238cf97d2c9bc53c1a5e61bbdae4290b/LDAP/img/dpl8.png)
+
+- Creamos grupos con `sudo ldapadd -x -D cn=admin,dc=nikki,dc=local -W -f grp.ldif`
 - Comprobamos con `sudo slapcat`
+
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/ece8abd4238cf97d2c9bc53c1a5e61bbdae4290b/LDAP/img/dpl9.png)
 
 ## Crear usuario
 - Copiamos `cp grp.ldif usr.ldif`
 - `sudo nano usr.ldif`:
 ```
-dn: uid=informatica,ou=informatica,dc=isauwuntu,dc=local
+dn: uid=informatica,ou=informatica,dc=nikki,dc=local
 objectClass: top
 objectClass: posixAccount
 objectClass: inetOrgPerson
@@ -77,30 +90,59 @@ homeDirectory: /home/isaiasuwuntu
 loginShell: /bin/bash
 userPassword: 1234
 sn: Worker
-mail: isauwuntu@example.es
+mail: nikki@example.es
 givenName: isauwunter
 ```
-- Creamos usuario `sudo ldapadd -x -D cn=admin,dc=isauwuntu,dc=local -W -f usr.ldif`
+
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/ece8abd4238cf97d2c9bc53c1a5e61bbdae4290b/LDAP/img/dpl10.png)
+
+- Creamos usuario `sudo ldapadd -x -D cn=admin,dc=nikki,dc=local -W -f usr.ldif`
 - Comprobamos con `sudo slapcat`
+
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/ece8abd4238cf97d2c9bc53c1a5e61bbdae4290b/LDAP/img/dpl11.png)
 
 ## Instalación LDAP en cliente
 - Instalamos con `sudo apt-get install libnss-ldap libpam-ldap ldap-utils -y`
   - Quitamos un slash y la i, ponemos la direccion del servidor
+
+  ![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/ece8abd4238cf97d2c9bc53c1a5e61bbdae4290b/LDAP/img/dpl12.png)
+
   - Cambiamos para que los parametros coincidan
+
+  ![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/ece8abd4238cf97d2c9bc53c1a5e61bbdae4290b/LDAP/img/dpl13.png)
+
   - Version 3, TAB enter
+
   - Si
+
   - No
+
   - Cambiamos los parámetros para que coincidan
   - Contraseña
 - Si nos equivocamos habra que hacer `sudo dpkg-reconfigure ldap-auth-config`
 - Cambiamos `sudo nano /etc/nsswitch.conf` cambiamos en `passwd`, `group` y `shadow` por ldap despues de files.
-- Comprobamos `sudo getent passwd`
-- Modificamos `sudo nano /etc/pam.d/common-session`: Añadimos una nueva linea `session optional` con `pam_mkhomedir.so skel=/etc/skel umask=077`
-- ldapsearch -x -H ldap://192.168.1.8 -b "dc=isauwuntu,dc=local"
 
-- `sudo su - isauwunter`
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/ece8abd4238cf97d2c9bc53c1a5e61bbdae4290b/LDAP/img/dpl14.png)
+
+- Comprobamos `sudo getent passwd`
+
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/ece8abd4238cf97d2c9bc53c1a5e61bbdae4290b/LDAP/img/dpl15.png)
+
+- Modificamos `sudo nano /etc/pam.d/common-session`: Añadimos una nueva linea `session optional` con `pam_mkhomedir.so skel=/etc/skel umask=077`
+
+- ldapsearch -x -H ldap://192.168.1.8 -b "dc=nikki,dc=local"
+
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/ece8abd4238cf97d2c9bc53c1a5e61bbdae4290b/LDAP/img/dpl16.png)
+
+- `sudo su - nikki`
+
+![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/ece8abd4238cf97d2c9bc53c1a5e61bbdae4290b/LDAP/img/dpl17.png)
+
 ## Configuración cliente sesión gráfica
 - Nueva terminal
 - `sudo apt install nslcd`
   - Comprobar que esté bien
+
+  ![img](https://github.com/nicholelouis/DPL_A_Nichole/blob/ece8abd4238cf97d2c9bc53c1a5e61bbdae4290b/LDAP/img/dpl19.png)
+  
 - sudo reboot
